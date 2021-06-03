@@ -13,6 +13,7 @@ function Diploma() {
 
   useEffect(() => {
     setStudents([
+      { name: "Richard Brooks" },
       { name: "Valeriu Rusu" },
       { name: "Dorcia Fiona Dinesh" },
       { name: "Raluca Elena Petrovici" },
@@ -64,6 +65,15 @@ function Diploma() {
     const { options } = event.target;
     for (let i = 0, l = options.length; i < l; i += 1) {
       if (options[i].selected) {
+        if (options[i].value === "Richard Brooks") {
+          setStudent({
+            name: "Richard Brooks",
+            education: "Software Engineering",
+            student_number: "rib",
+            issuer: "VIA University College",
+          });
+          setDisabled(false);
+        }
         if (options[i].value === "Valeriu Rusu") {
           setStudent({
             name: "Valeriu Rusu",
