@@ -1,0 +1,40 @@
+.route__container {
+  margin-bottom: 5px;
+}
+
+.route__link {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.icon > .react-icons {
+  display: flex;
+  font-size: xx-large;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.route__link--active {
+  text-decoration: none;
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  color: #004a9d;
+  padding: 5px;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+
+.icon--active > .react-icons {
+  display: flex;
+  font-size: xx-large;
+  margin-right: 10px;
+  color: #004a9d;
+  justify-content: center;
+}

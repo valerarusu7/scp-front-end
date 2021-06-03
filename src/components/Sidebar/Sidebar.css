@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  padding: 10px;
+  width: 350px;
+  z-index: 999;
+  background-color: #004a9d;
+  height: 100vh;
+}
+
+.sidebar__navigation {
+  padding: 10px;
+}
+
+.sidebar__image {
+  position: fixed;
+  width: 150px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav__group {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
